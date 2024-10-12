@@ -11,31 +11,29 @@
             padding: 0;
             background-color: #e8f5e9;
             color: #2e7d32;
-            transition: background-color 0.3s ease;
         }
         header {
             background-color: #388e3c;
             color: white;
             padding: 10px 0;
             text-align: center;
-            transition: background-color 0.3s ease;
         }
         nav {
             display: flex;
             justify-content: center;
             background-color: #66bb6a;
             padding: 10px 0;
-            transition: background-color 0.3s ease;
         }
         nav a {
             color: white;
             margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
-            transition: color 0.3s ease;
+            transition: color 0.3s ease, transform 0.3s ease;
         }
         nav a:hover {
             color: #2e7d32;
+            transform: scale(1.1);
         }
         .hero {
             background-image: url('chicken-farm.jpg');
@@ -95,7 +93,6 @@
             position: fixed;
             width: 100%;
             bottom: 0;
-            transition: background-color 0.3s ease;
         }
     </style>
 </head>
